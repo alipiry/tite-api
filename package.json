@@ -1,6 +1,6 @@
 {
-  "name": "@alipiry/tite",
-  "version": "1.0.0",
+  "name": "@alipiry/tite-api",
+  "version": "1.0.1",
   "description": "Time & Date getter api",
   "main": "./lib/index.js",
   "bin": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/alipiry/tite.git"
+    "url": "git+https://github.com/alipiry/tite-api.git"
   },
   "keywords": [
     "tite",
@@ -24,7 +24,7 @@
     "dev": "ts-node src/index.ts",
     "build": "tsc -p ."
   },
-  "homepage": "https://github.com/alipiry/tite#readme",
+  "homepage": "https://github.com/alipiry/tite-api#readme",
   "dependencies": {
     "jalaali-js": "^1.1.0"
   },
