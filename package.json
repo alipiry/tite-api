@@ -1,0 +1,37 @@
+{
+  "name": "@alipiry/tite",
+  "version": "1.0.0",
+  "description": "Time & Date getter api",
+  "main": "./lib/index.js",
+  "bin": {
+    "tite-api": "./lib/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alipiry/tite.git"
+  },
+  "keywords": [
+    "tite",
+    "time",
+    "date",
+    "typescript",
+    "javascript",
+    "nodejs"
+  ],
+  "author": "Ali Piry <alipiry@icloud.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "ts-node src/index.ts",
+    "build": "tsc -p ."
+  },
+  "homepage": "https://github.com/alipiry/tite#readme",
+  "dependencies": {
+    "jalaali-js": "^1.1.0"
+  },
+  "devDependencies": {
+    "@types/jalaali-js": "^1.1.0",
+    "@types/node": "^10.12.24",
+    "ts-node": "^8.0.2",
+    "typescript": "^3.3.3"
+  }
+}
