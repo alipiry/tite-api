@@ -11,7 +11,7 @@
     "url": "git+https://github.com/alipiry/tite-api.git"
   },
   "keywords": [
-    "tite",
+    "tite-api",
     "time",
     "date",
     "typescript",
@@ -32,6 +32,8 @@
     "@types/jalaali-js": "^1.1.0",
     "@types/node": "^10.12.24",
     "ts-node": "^8.0.2",
+    "tslint": "^5.12.1",
+    "tslint-config-standard": "^8.0.1",
     "typescript": "^3.3.3"
   }
 }
