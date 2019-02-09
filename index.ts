@@ -24,7 +24,6 @@ export const nowTime: string = `${todayGregorian.getHours()}:${todayGregorian.ge
 export const jalaliDate: string = `${jalaliWeekDay}, ${jalaliDay} ${jalaliMonth} ${jalaliYear}`;
 export const gregorianDate: string = `${gregorianWeekDay}, ${gregorianDay} ${gregorianMonth} ${gregorianYear}`;
 
-
 export function getYear(): string {
   return `Jalali Year: ${jalaliYear}\nGregorian Year: ${gregorianYear}`;
 }
