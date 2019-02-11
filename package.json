@@ -1,6 +1,6 @@
 {
   "name": "@alipiry/tite-api",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Time & Date getter api",
   "main": "./lib/index.js",
   "bin": {
